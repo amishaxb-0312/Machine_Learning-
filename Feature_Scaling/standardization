@@ -1,1 +1,80 @@
+# Feature Scaling using Standardization
 
+🎯Objectives:
+- Understand the concept of Standardization.
+- Apply StandardScaler using Scikit-Learn.
+- Compare data before and after scaling.
+- Visualize the effect of scaling on feature distributions.
+- Evaluate the impact of scaling on different machine learning models.
+
+🛠️ Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+
+📈 Steps Performed
+
+1. Data Loading & Preprocessing
+- Imported dataset using Pandas.
+- Selected relevant numerical features.
+- Split data into training and testing sets.
+
+2. Standardization
+Applied StandardScaler:
+
+```python
+from sklearn.preprocessing import StandardScaler
+
+scaler = StandardScaler()
+scaler.fit(x_train)
+x_train_scaled = scaler.transform(x_train)
+x_test_scaled = scaler.transform(x_test)
+```
+
+3. Data Analysis
+Compared:
+- Mean
+- Standard Deviation
+- Feature distributions
+
+before and after scaling.
+
+4. Visualization
+Created:
+- Scatter plots
+- KDE plots
+
+5. Model Comparison
+Evaluated the effect of scaling on:
+
+Logistic Regression
+- Performance before scaling
+- Performance after scaling
+
+📊 Key Insights
+
+Logistic Regression
+- Performance improved after scaling.
+- Standardization helped features contribute equally to model learning.
+
+Decision Tree
+- Little to no impact from scaling.
+- Tree-based algorithms are generally scale-invariant.
+
+Outlier Sensitivity
+- StandardScaler uses mean and standard deviation.
+- Presence of outliers can significantly affect scaling results
+
+📚 Concepts Covered
+
+- Feature Engineering
+- Data Preprocessing
+- Standardization
+- Z-Score Normalization
+- Train-Test Split
+- Logistic Regression
+- Decision Trees
+- Model Evaluation
