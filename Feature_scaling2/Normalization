@@ -1,0 +1,90 @@
+Normalization is particularly useful for algorithms that rely on distance calculations and gradient-based 
+optimization techniques.
+
+🎯 Objectives
+
+- Understand the concept of Normalization.
+- Apply Min-Max Scaling using Scikit-Learn.
+- Compare feature distributions before and after scaling.
+- Visualize the impact of normalization.
+- Analyze how normalization affects machine learning model performance.
+
+🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-Learn
+
+📈 Project Workflow
+
+1. Data Preprocessing
+- Loaded the dataset using Pandas.
+- Selected relevant numerical features.
+- Split the dataset into training and testing sets.
+
+2. Normalization
+Applied Min-Max Scaling to transform feature values into a range between 0 and 1.
+
+```python
+from sklearn.preprocessing import MinMaxScaler
+
+scaler = MinMaxScaler()
+
+x_train_scaled = scaler.fit_transform(x_train)
+x_test_scaled = scaler.transform(x_test)
+```
+
+3. Data Visualization
+Compared feature distributions before and after normalization using:
+- Scatter Plots
+- KDE (Kernel Density Estimation) Plots
+
+4. Model Evaluation
+Analyzed model performance with and without normalization.
+
+📊 Key Insights
+
+Benefits of Normalization
+- Brings all features to a common scale.
+- Prevents features with larger values from dominating the model.
+- Improves convergence speed in optimization-based algorithms.
+- Enhances performance of distance-based algorithms.
+
+Impact on Machine Learning Models:
+
+1. Logistic Regression
+- Performance generally improves after normalization.
+- Faster and more stable model training.
+
+2. Distance-Based Models (KNN, SVM)
+- Significantly benefit from normalized data.
+- More accurate distance calculations.
+
+3. Tree-Based Models
+- Minimal impact because decision trees do not depend on feature scales.
+
+---
+
+📷 Visualizations Included
+
+✔ Before vs After Normalization Scatter Plot
+
+✔ Feature Distribution Comparison
+
+✔ Normalized Feature Analysis
+
+✔ Model Performance Evaluation
+
+🚀 Learning Outcomes
+
+Through this project, I learned:
+
+- The importance of feature scaling in machine learning.
+- How Min-Max Scaling works.
+- When normalization should be preferred over standardization.
+- Which algorithms benefit most from normalization.
+- Best practices for applying scaling techniques in preprocessing pipelines.
+
