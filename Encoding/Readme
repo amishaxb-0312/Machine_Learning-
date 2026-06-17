@@ -1,1 +1,21 @@
+# ENCODING CATEGORICAL DATA 
+
+Data is categorised as numeric and categorical.
+Further categorical data is divided into 2 parts:
+1. Nominal ( no order)
+2. Ordinal ( ordered)
+
+For nominal categorical data, we use ONE-HOT ENCODING.
+For ordinal categorical data, we use LABEL ENCODING.
+
+Label Encoding: This type of encoding is used over output/target values and not on input values.
+
+Steps Followed:
+1. Dataset was choosen and the columns review, education,	purchased were taken.
+2. For the columns review and education, I performed ordinal encoding.
+3. For the output column purchased, label encoding was done.
+
+Output:
+YES: 1
+NO: 0
 
