@@ -1,0 +1,41 @@
+Column Transformer allows applying separate transformations to numerical and categorical columns in a single pipeline, 
+making machine learning workflows cleaner, scalable, and production-ready.
+
+🚀 Objectives
+Understand the concept of Column Transformer.
+Apply different preprocessing techniques to different columns.
+Handle numerical and categorical data efficiently.
+Build a reusable preprocessing pipeline for machine learning projects.
+Improve workflow automation and reduce preprocessing errors.
+
+🔑 Key Concepts Covered
+1. Numerical Data Transformation
+Feature Scaling
+Standardization
+Data Normalization
+
+2. Categorical Data Transformation
+One-Hot Encoding
+Ordinal Encoding
+Label Encoding 
+
+3. Column Transformer
+Applying multiple transformations simultaneously
+Selecting columns based on data type
+Creating preprocessing pipelines
+
+4. Machine Learning Pipeline Integration
+Combining preprocessing and modeling steps
+Improving code readability and maintainability
+Reducing data leakage
+
+📊 Steps Followed:
+Load Dataset
+Identify Numerical and Categorical Features
+Apply Appropriate Transformations
+Create Column Transformer
+Fit and Transform Data
+Integrate with Machine Learning Pipeline
+Evaluate Processed Data
+
+
