@@ -1,0 +1,12 @@
+A hands-on implementation of One-Hot Encoding using Pandas and Scikit-Learn. 
+This project demonstrates multiple encoding techniques, including standard OHE, K-1 encoding,
+and handling high-cardinality categorical features with top-category encoding for machine learning preprocessing.
+
+# Key Features:
+One-Hot Encoding using Pandas (get_dummies)
+K-1 Dummy Variable Encoding
+One-Hot Encoding using Scikit-Learn's OneHotEncoder
+Train-Test Split implementation
+Handling categorical variables for ML models
+Top Category Encoding for high-cardinality features
+Practical examples using a car dataset
