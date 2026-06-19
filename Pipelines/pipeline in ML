@@ -1,0 +1,9 @@
+# PIPELINES
+Pipelines chains together multiple steps so that output of each step is used as input to the next step.
+
+# Pipeline Plan:
+1. Input missing values
+2. OHE on sex and embarked column
+3. Scaling
+4. Feature Selection
+5. Decision tree
