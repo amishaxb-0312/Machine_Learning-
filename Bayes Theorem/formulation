@@ -1,0 +1,5 @@
+** Naive Bayes Theorem**
+This is a conditional prbability theorem used in machine learning to predict the probability outcome of an event using probability
+of the other event which has already occured.
+
+P(A|B)=P(B|A)*P(A)/P(B)
